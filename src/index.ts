@@ -1,6 +1,7 @@
 import "./style/index.less";
 import Food from "./moduls/Food";
 import ScorePanel from "./moduls/ScorePanel";
+import Snake from "./moduls/Snake";
 
 // Food 类测试代码
 const food = new Food();

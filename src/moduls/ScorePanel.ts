@@ -9,7 +9,7 @@ class ScorePanel {
     // 升级门槛
     upScore: number;
 
-
+    // 分数和等级对应的元素
     scoreElement: HTMLElement;
     levelElement: HTMLElement;
 
