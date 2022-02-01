@@ -24,9 +24,9 @@ module.exports = {
     // 打包后的文件名
     filename: "bundle.js",
 
-    // 要求 webpack 不使用箭头函数
     environment: {
-      arrowFunction: false,
+      // 要求 webpack 不使用箭头函数
+      // arrowFunction: false,
     },
   },
 
@@ -50,7 +50,7 @@ module.exports = {
                   {
                     // 要兼容的目标浏览器
                     targets: {
-                      chrome: "58",
+                      chrome: "88",
                       ie: "11",
                     },
                     // 指定 core-js 的版本

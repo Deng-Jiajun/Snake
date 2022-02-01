@@ -14,7 +14,7 @@ class ScorePanel {
     levelElement: HTMLElement;
 
     // 构造函数，参数后跟默认值
-    constructor(maxLevel: number = 10,upScore:number =10) {
+    constructor(maxLevel: number = 10,upScore:number =1) {
         this.scoreElement = document.getElementById("score")!;
         this.levelElement = document.getElementById("level")!;
         this.maxLevel = maxLevel;
